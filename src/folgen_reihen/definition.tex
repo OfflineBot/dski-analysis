@@ -108,3 +108,100 @@ $q \cdot S_n - S_n = \frac{a_1 \cdot (-1 + q^n)}{-a_1 + a_1 \cdot q}$
 \point{n-te Partialsumme einer geometrischen Reihe} $S_n \cdot (q - 1) = a_1 \cdot \frac{q^n - 1}{q - 1}$
 
 
+\subsection{Folgen - Eigenschaften}
+
+\subsubsection{Beschränkung}
+Eine Folge $\{a_n\}$ heißt beschränkt, wenn für alle glieder der Folge gilt: 
+
+$|a_n| \leq c = const.$, $c$ heißt Schranke
+
+\point{Beispiel}
+
+$a_n = (-2)^n$ ist nicht beschränkt, da die Folgenglieder beliebig groß bzw. klein werden können.
+
+\point{Beispiel 2}
+
+$a_n = \frac{1}{n}$ ist beschränkt, da für alle Folgendglieder gilt: $|a_n| \leq 1 \Rightarrow$ Schranke $c = 1$
+
+$0 < \frac{1}{u} \leq 1$
+
+
+\subsubsection{Monotonie}
+Gilt für eine Zahlenfolge $\{a_n\}$:
+
+$a_n < / \leq / = / \geq / > a_{n+1}$ für alle $n\epsilon\mathbb{N}$, so heißt die Folge: 
+\begin{itemize}
+    \item streng monoton wachsend
+    \item monoton wachsend
+    \item monoton fallend
+    \item streng monoton fallend
+\end{itemize}
+
+\point{Beispiel}
+
+$a_n = 4n-3$ 
+
+$4(n + 1)-3 = a_{n+1}$ 
+
+$a_n < a_{n+1} \Rightarrow 4n$ unterschied $\Rightarrow$ streng monton steigend
+
+\point{Beispiel 2}
+
+$a_n = n - n^2$
+
+$(n + 1) - (n + 1)^2 = a_{n+1}$
+
+$n + 1 - (n^2 + 2n + 1) = a_{n+1}$
+
+$n - n^2 - 2n = a_{n+1}$
+
+$a_n = n - n^2 > n-n^2 - 2n = a_n + 1$ | $n - n^2 = a_n$
+
+$a_n$ ist streng monoton fallend
+
+\point{Beispiel 3}
+
+$a_n = 2$ ist monoton wachsend und monoton fallend ($2, 2, 2, 2, ...$)
+
+\point{Beispiel 4}
+
+$a_n = \frac{n}{2^n}$  | $\frac{1}{2}, \frac{2}{4}, \frac{3}{8}, ...$
+
+ist monton fallend da $\frac{1}{2} = \frac{2}{4}$
+
+
+\subsubsection{Grenzwerte}
+
+Die Glieder der Folge $a_n = 2n (2, 4, 6, 8, 10, ...)$  werden mit wachsendem $n$ immer größer. Man sagt: "Die Folge wächst über alle Grenzen."
+
+Gleiches gilt für $a_n = -3n (-3, -6, -9, -12, ...)$.
+
+Die Folge $a_n = \frac{1}{n} (1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, ...)$ nähert sich mit größer werdenen $n$ dem Wert $0$ an. Der Wert $0$ wird nicht erriecht.
+
+Man schreibt $\lim_{n\rightarrow \inf}\frac{1}{n} = 0$
+
+"Limes $\frac{1}{n}$ für n geht gegen $\inf$ ist gleich $0$"
+
+Eine Folge, deren Glieder einem Grenzwert zustreben, heißt \textbf{konvergente Folge} (gegenstück ist die \textbf{divergente Folge}).
+
+Eine Folge mit dem grenzwert 0 heißt \textbf{Nullfolge}.
+
+\point{Beispiel}
+
+$a_n = (-1)^n + \frac{1}{n}$
+
+$a_1 = (-1)^1 + \frac{1}{1} = \ \ 0$
+
+$a_2 = (-1)^2 + \frac{1}{2} = \ \ \frac{3}{2}$
+
+$a_3 = (-1)^3 + \frac{1}{3} = -\frac{2}{3}$
+
+$a_4 = (-1)^4 + \frac{1}{4} = \ \ \frac{5}{4}$
+
+$a_4 = (-1)^5 + \frac{1}{5} = -\frac{4}{5}$
+
+$a_4 = (-1)^6 + \frac{1}{6} = \ \ \frac{7}{6}$
+
+$a_4 = (-1)^7 + \frac{1}{7} = -\frac{6}{7}$
+
+
