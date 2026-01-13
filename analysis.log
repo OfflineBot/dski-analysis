@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  13 JAN 2026 12:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  13 JAN 2026 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -512,29 +512,145 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./src/src.tex (./src/allgemein/allgemein.tex) (./src/elementare_grundlagen/elementare_grundlagen.tex (./src/elementare_grundlagen/mengen.tex)))
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./src/src.tex (./src/allgemein/allgemein.tex) (./src/elementare_grundlagen/elementare_grundlagen.tex (./src/elementare_grundlagen/mengen.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.29     \item \cdot
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-[2{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./analysis.aux)
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30     \item
+               /
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.30     \item /
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.53     \item \sqrt{
+                     2} = 1.141421
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54     \item
+               \pi = 3.141592
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.54     \item \pi
+                   = 3.141592
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.54     \item \pi
+                   = 3.141592
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \end{itemize} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \end{itemize}
+                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.55 \end{itemize}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+
+[2{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.63     \item \cdot
+                    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64     \item
+               /
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.64     \item /
+                
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+)))
+
+[3] (./analysis.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `analysis.out' has not changed.
-(rerunfilecheck)             Checksum: A2B89E43C318CFDE8FB2B158BBE0F7E2;756.
+(rerunfilecheck)             Checksum: EA6BA3C8D7A8CD59BBBE2E527904465C;939.
  ) 
 Here is how much of TeX's memory you used:
- 11937 strings out of 475171
- 177824 string characters out of 5767095
- 589863 words of memory out of 5000000
- 34717 multiletter control sequences out of 15000+600000
+ 11942 strings out of 475171
+ 177932 string characters out of 5767095
+ 595863 words of memory out of 5000000
+ 34720 multiletter control sequences out of 15000+600000
  574049 words of font info for 75 fonts, out of 8000000 for 9000
  21 hyphenation exceptions out of 8191
- 79i,6n,85p,1197b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,6n,85p,1197b,484s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on analysis.pdf (2 pages, 124548 bytes).
+Output written on analysis.pdf (3 pages, 131112 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 12 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
