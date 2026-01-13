@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  13 JAN 2026 12:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.12)  13 JAN 2026 12:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -635,29 +635,22 @@ you left one out. Proceed, with fingers crossed.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `analysis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `analysis.out':
-(rerunfilecheck)             Before: EA6BA3C8D7A8CD59BBBE2E527904465C;939
-(rerunfilecheck)             After:  EFA61707998CD569AE866B08FCF9CCA6;1175.
+Package rerunfilecheck Info: File `analysis.out' has not changed.
+(rerunfilecheck)             Checksum: EFA61707998CD569AE866B08FCF9CCA6;1175.
  ) 
 Here is how much of TeX's memory you used:
- 11949 strings out of 475171
- 178201 string characters out of 5767095
+ 11950 strings out of 475171
+ 178217 string characters out of 5767095
  595863 words of memory out of 5000000
- 34723 multiletter control sequences out of 15000+600000
+ 34724 multiletter control sequences out of 15000+600000
  574049 words of font info for 75 fonts, out of 8000000 for 9000
  21 hyphenation exceptions out of 8191
  79i,6n,85p,1197b,484s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfss1728.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on analysis.pdf (3 pages, 134873 bytes).
+Output written on analysis.pdf (3 pages, 135421 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 127 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  13 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
