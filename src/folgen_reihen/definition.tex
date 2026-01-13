@@ -60,6 +60,7 @@ Die Summe $\displaystyle S_n = \sum_{i=1}^{n} a; = a_1 + a_2 + ... + a_n$ heißt
 
 Eine arithmetische/geometrische Reihe ist eine Reihe, deren Glieder den Gesetzen einer arithmetischen/geometrischen Folge gehorchen.
 
+\subsubsection{n-te Partialsumme einer arithmetischen Reihe}
 Die $n$-te Partialsumme $S_n$ einer arithmetischen Folge:
 
 1. $S_n = a_1 + a_1 + d + ... + a_1 + (n - 2)d + a_1 + (n - 1)d$
@@ -73,4 +74,37 @@ $\Rightarrow n$-mal
 $2S_n = n \cdot (2a_1 + (n - 1)d) \ | \ : \ 2$
 
 \point{n-te Partialsumme einer arithmetischen Reihe} $S_n = \frac{n}{2}(2a_1 + (n-1)d)$
+
+$S_n = \frac{n}{2}(2a_1 + (n-1)d)$
+
+$S_n = \frac{n}{2}(a_1 + a_1 + (n - 1)d)$
+
+$S_n = \frac{n}{2}(a_1 + a_n)$
+
+
+\subsubsection{Gauss'sche Aufgabe}
+
+\[
+    S_{100} = \sum_{i=1}^{100} i = 1 + 2 + 3 + 4 + ... + 100 =
+\]
+
+$\frac{100}{2} \cdot (1 + 100) = \frac{100 \cdot 101}{2} = 5050$
+
+Summe der natürlichen Zahlen $1, 2, 3, 4, 5, ..., n$
+
+$S_n = \frac{n\cdot (n+1)}{2}$
+
+\subsubsection{n-te Partialsumme einer geometrischen Reihe}
+Die $n$-te Partialsumme $S_n$ einer geometirschen Folge:
+
+1. $S_n = a_1 + a_1 \cdot q + a_1 \cdot q^2 + ... + a_1 \cdot q^{a-2} + a_1 \cdot q^{n-1}$
+
+2. $S_n = a_1 \cdot q^{n-1} + a_1 \cdot q^{a-2} + ... + a_1 \cdot q^2 + a_1 \cdot q + a_1$
+
+1. + 2. $q \cdot S_n - S_n = -a_1 + a_1 q^n$ 
+
+$q \cdot S_n - S_n = \frac{a_1 \cdot (-1 + q^n)}{-a_1 + a_1 \cdot q}$ 
+
+\point{n-te Partialsumme einer geometrischen Reihe} $S_n \cdot (q - 1) = a_1 \cdot \frac{q^n - 1}{q - 1}$
+
 
