@@ -147,15 +147,15 @@ $a_n < a_{n+1} \Rightarrow 4n$ unterschied $\Rightarrow$ streng monton steigend
 
 \point{Beispiel 2}
 
-$a_n = n - n^2$
-
-$(n + 1) - (n + 1)^2 = a_{n+1}$
-
-$n + 1 - (n^2 + 2n + 1) = a_{n+1}$
-
-$n - n^2 - 2n = a_{n+1}$
-
-$a_n = n - n^2 > n-n^2 - 2n = a_n + 1$ | $n - n^2 = a_n$
+\[
+    \begin{aligned}
+        a_n &= n - n^2 \\
+        a_{n+1} &= (n + 1) - (n + 1)^2  \\
+        a_{n+1} &= n + 1 - (n^2 + 2n + 1) \\
+        a_{n+1} &= n - n^2 - 2n \\
+        a_n = n - n^2 > n-n^2 - 2n &= a_{n + 1} \ | \ n - n^2 = a_n
+    \end{aligned}
+\]
 
 $a_n$ ist streng monoton fallend
 
@@ -165,7 +165,7 @@ $a_n = 2$ ist monoton wachsend und monoton fallend ($2, 2, 2, 2, ...$)
 
 \point{Beispiel 4}
 
-$a_n = \frac{n}{2^n}$  | $\frac{1}{2}, \frac{2}{4}, \frac{3}{8}, ...$
+\[a_n = \frac{n}{2^n} \ | \ \frac{1}{2}, \frac{2}{4}, \frac{3}{8}, ...\]
 
 ist monton fallend da $\frac{1}{2} = \frac{2}{4}$
 
@@ -188,21 +188,18 @@ Eine Folge mit dem grenzwert 0 heißt \textbf{Nullfolge}.
 
 \point{Beispiel}
 
-$a_n = (-1)^n + \frac{1}{n}$
+\[
+    \begin{aligned}
+    a_1 &= (-1)^1 + \frac{1}{1} = 0 \\
+    a_2 &= (-1)^2 + \frac{1}{2} = \frac{3}{2} \\
+    a_3 &= (-1)^3 + \frac{1}{3} = -\frac{2}{3} \\
+    a_4 &= (-1)^4 + \frac{1}{4} = \frac{5}{4} \\
+    a_5 &= (-1)^5 + \frac{1}{5} = -\frac{4}{5} \\
+    a_6 &= (-1)^6 + \frac{1}{6} = \frac{7}{6} \\
+    a_7 &= (-1)^7 + \frac{1}{7} = -\frac{6}{7}
+    \end{aligned}
+\]
 
-$a_1 = (-1)^1 + \frac{1}{1} = \ \ 0$
-
-$a_2 = (-1)^2 + \frac{1}{2} = \ \ \frac{3}{2}$
-
-$a_3 = (-1)^3 + \frac{1}{3} = -\frac{2}{3}$
-
-$a_4 = (-1)^4 + \frac{1}{4} = \ \ \frac{5}{4}$
-
-$a_4 = (-1)^5 + \frac{1}{5} = -\frac{4}{5}$
-
-$a_4 = (-1)^6 + \frac{1}{6} = \ \ \frac{7}{6}$
-
-$a_4 = (-1)^7 + \frac{1}{7} = -\frac{6}{7}$
 
 $(-1)^n = > 0 \text{ für n gerade;} < 0 \text{ für n ungerade}$
 
@@ -210,25 +207,66 @@ $\Rightarrow$ Vorzeichenwechsel
 
 "alterniernde" Folge; alterniernd = wechselnd
 
-$\lim_{n\rightarrow\inf} [(-1)^n + \frac{1}{n}] = +1 \text{ für gerade;} -1 \text{ für ungerade}$
+$\displaystyle\lim_{n\rightarrow\infty} [(-1)^n + \frac{1}{n}] = +1 \text{ für gerade;} -1 \text{ für ungerade}$
 
 Die Folge $a_n = (-1)^n + \frac{1}{n}$ ist beschränk, da gilt:
 
-$|a_n| \leq 1.5 = \frac{3}{2}$ | $c = 1.5$
-
-$a_n \epsilon \ ]-1; 1.5]$
+\[
+    \begin{aligned}
+        |a_n| \leq 1.5 = \frac{3}{2} | c = 1.5 \ \ a_n \epsilon \ ]-1; 1.5]
+    \end{aligned}
+\]
 
 Grenzwerte von Folgen, deren Glieder aus Polynomen n-ten Grades bestehen:
 
 \point{Beispiel}
 
-$\lim_{n\rightarrow\inf} \frac{3n^2}{4n^2+n+5} \rightarrow \frac{3}{4}$ weil man mit $n^2$ alle Werte multipliziert
+$\displaystyle\lim_{n\rightarrow\infty} \frac{3n^2}{4n^2+n+5} \rightarrow \frac{3}{4}$ weil man mit $n^2$ alle Werte multipliziert
 
 \point{Beispiel 2}
 
-$\lim_{n\rightarrow\inf} \frac{3n^3}{4n^2 + n + 5} \rightarrow \inf$
+\[\lim_{n\rightarrow\infty} \frac{3n^3}{4n^2 + n + 5} \rightarrow \infty\]
 
 \point{Beispiel 3}
 
-$\lim_{n\rightarrow\inf} \frac{3n^2}{4n^3 + n + 5} = 0$
+\[\lim_{n\rightarrow\infty} \frac{3n^2}{4n^3 + n + 5} = 0\]
 
+
+\subsection{Reihen - Eigenschaften}
+
+\subsubsection{Grenzwerte von Reihen}
+
+Bei arithmetischen Reihen gibt es keinen Grenzwert.
+
+Bei geometrischen Reihen einen Grenzwert, sofern für den Quotienten $q$ gilt: $|q| < 1$. Der Grenzwert ist dann:
+
+\[
+\lim_{n\rightarrow\infty} 
+\sum_{i=1}^{n} a_i\ q^{i-1} = a_i \cdot \frac{1}{1-q}
+\]
+
+\point{Beispiel}
+
+\[
+    \begin{aligned}
+        a_n &= \frac{1}{2{n-1}} \\
+        &= 1 + \frac{1}{2} + \frac{1}{4} + ...
+    \end{aligned}
+\]
+
+Anfangsglied $a_1 = 1; q = \frac{1}{2}$ 
+
+\[
+\lim_{n\rightarrow\infty} \sum_{i=1}^{n}\frac{1}{2^{n-1}} = \frac{1}{1-\frac{1}{2}} = 2
+\]
+
+
+\point{Beispiel 2}
+
+\[
+    \sum_{i=2}^{\infty} 5 \cdot (\frac{1}{3})^i = \frac{5}{9} + \frac{5}{27} + \frac{5}{81} + ... = \frac{5}{9} \cdot \frac{1}{1-\frac{1}{3}}  = \frac{5}{9\frac{1}{3}} \cdot \frac{3}{2} = \frac{5}{6}
+\]
+
+Beachte das $i=2$!
+
+Für $i=1$ wäre der Grenzwert $\frac{5}{6} + \frac{5}{3} = \frac{5}{2}$. Dabei ist $\frac{5}{3}$ der Wert für $i=1$ \textbf{nicht} summiert.
