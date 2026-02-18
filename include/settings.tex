@@ -3,13 +3,20 @@
 
 \renewcommand{\familydefault}{\sfdefault}
 
-\pagecolor[HTML]{0a0c0f}
-\color[HTML]{DFE0EA}
-\definecolor{magenta}{HTML}{b48ead}
+% \pagecolor[HTML]{0a0c0f}
+% \color[HTML]{DFE0EA}
+% \definecolor{magenta}{HTML}{b48ead}
+%
+% \definecolor{myred}{HTML}{BF616A}      % color1 red
+% \definecolor{myyellow}{HTML}{ebcb8b}   % color3 yellow
+% \definecolor{mygreen}{HTML}{a3be8c}    % color2 green
 
-\definecolor{myred}{HTML}{BF616A}      % color1 red
-\definecolor{myyellow}{HTML}{ebcb8b}   % color3 yellow
-\definecolor{mygreen}{HTML}{a3be8c}    % color2 green
+
+\definecolor{myred}{HTML}{8F2D3A}
+\definecolor{myyellow}{HTML}{A35E48}
+\definecolor{mygreen}{HTML}{6B8E5A}
+\definecolor{mymagenta}{HTML}{7B5C78}
+
 
 % Set section title format with colors
 \titleformat{\section}
@@ -24,7 +31,7 @@
   {\normalfont\normalsize\bfseries\color{mygreen}} % green for subsubsections
   {\thesubsubsection}{1em}{}
 
-\newcommand{\point}[1]{\textcolor{magenta}{\textbf{#1}}}
+\newcommand{\point}[1]{\textcolor{mymagenta}{\textbf{#1}}}
 
 
 \newcommand{\ttflushleft}[1]{%
@@ -38,3 +45,4 @@
 }
 
 \newcommand{\sectionspace}{\vspace{0.8cm}}
+
